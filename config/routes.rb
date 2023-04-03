@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  # my routes are defined here
   get 'rentals/create'
   post '/login', to: 'sessions#create'
   namespace :api do
